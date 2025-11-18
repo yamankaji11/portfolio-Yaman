@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300&family=Montserrat:wght@700&display=swap');
+
+body {
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F6E8C3; /* Light yellow background */
+    color: #1E3B4D; /* Deep blue for text */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1E3B4D;
+    color: #F6E8C3; 
+    text-align: center;
+    padding: 20px;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F6E8C3; 
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #E76F51; 
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+section h3 {
+    font-size: 1.8rem;
+    color: #E76F51; 
+    border-bottom: 2px solid #F4A261; /* Light orange */
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+section p {
+    color: #264653; 
+}
+
+/* Image styling */
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.image img {
+    width: 45%; 
+    height: auto; 
+    border-radius: 50%; 
+    border: 10px solid #F4A261; 
+    box-shadow: 0 0 15px #2A9D8F, 0 0 30px #E76F51; 
+}
+
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #F6E8C3;
+ }
+
+th, td {
+    border: 1px solid #2A9D8F; 
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #E76F51; 
+    color: #F6E8C3; 
+}
+
+td {
+    background-color: #F4A261; 
+}
+
+/* Interest section */
+#interest b {
+    color: #E76F51; 
+}
+
+#interest div {
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form label {
+    font-weight: bold;
+    color: #1E3B4D; 
+}
+
+form input, form textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #2A9D8F; 
+    border-radius: 5px;
+    background-color: #F6E8C3; 
+}
+
+
+form input[type="submit"] {
+    background-color: #E76F51; 
+    color: #F6E8C3; 
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #F4A261; 
+}
+
+/* Footer */
+footer {
+    background-color: #1E3B4D; 
+    color: #F6E8C3; 
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #E76F51;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #F4A261; 
+}
